@@ -1,0 +1,7 @@
+body{
+    background-color: aqua;
+}
+#heading,.text,span,#para{
+    background-color: hotpink;
+    color: yellow;
+}

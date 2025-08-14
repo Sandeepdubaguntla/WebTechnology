@@ -1,0 +1,39 @@
+#grandfather{
+    background-color:goldenrod;
+    width: 100%;
+    height: 800px;
+
+}
+#father,#babai
+{
+    background-color: violet;
+    width: 50%;
+    height: 95%;
+    float: left;
+}
+#babai
+{
+    background-color: brown;
+}
+#sib1,#you,#sib2,#cou1,#cou2,#cou3{
+    background-color: green;
+    width: 33.3%;
+    height: 680px;
+    float: left;
+}
+#you
+{
+    background-color: yellow;
+}
+#sib2{
+    background-color: aqua;
+}
+#cou1{
+    background-color:cadetblue;
+}
+#cou2{
+    background-color: cornflowerblue;
+}
+#cou3{
+    background-color: deeppink;
+}
