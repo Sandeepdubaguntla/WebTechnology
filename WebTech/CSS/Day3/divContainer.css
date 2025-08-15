@@ -37,3 +37,33 @@
 #cou3{
     background-color: deeppink;
 }
+
+/* 1. child selector - able to select only the parent to child generation.*/
+/* #babai>#cou3{
+    background-color: lawngreen;
+} */
+/* #grandfather>#father{
+    background-color: bisque;
+} */
+
+/* 2. descendent selector; - able to select upto 2 generations like 
+    gf to sib1 and father to sib2*/
+/* #grandfather #cou1{
+    background-color: red;
+}
+#father #sib1{
+    background-color: aquamarine;
+} */
+
+/* 3. adjacent sibling selector- able to access only next adjacent one only  */
+/* #you+#sib2{
+    background-color: lawngreen;
+} */
+
+/* 4. general Sibling selector - able to select all the next siblings in 
+   downwards cant perfrom upwords */
+/* #sib1~#you{
+    background-color: lightsalmon;
+    #sib1!#sib2{
+    background-color: lightsalmon;
+} */
