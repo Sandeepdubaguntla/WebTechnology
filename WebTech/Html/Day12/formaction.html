@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/WEB-TECHNOLOGY(JSPIDERS)/HTML/DAY-11/Aboutformtable.html">
+
+        <label for="email">
+            Enter your Gmail
+        </label>
+        
+        <input type="email" id="email" required placeholder="Enter the @gmail.com ">
+        <br><br>
+        <label for="pass">
+            Enter your Password
+        </label>
+        <input type="password" id="pass" required placeholder="Enter the password">
+        <br><br>
+
+        <input type="submit" >
+
+        <input type="submit" disabled>
+        <br><br>
+        <label> data will not change with this command</label>
+        <input type="text" value="hello@gmail.com" readonly>
+
+        <br><br>
+        <label>it will set the range of number </label>
+        <input type="number" min="10" max="30">
+        <br><br>
+        <label> it will set the min and max limit of the date </label>
+        <input type="date" max="08-08-2007"  min="08-08-19650">
+        <br><br>
+        <label>it will set the text limit from m to n</label>
+        <input type="text" minlength="3" maxlength="10">
+        <br><br>
+        <label>it will set the max length of the text</label>
+        <input minlength="10" maxlength="10">
+        <br><br>
+        
+        <input maxlength="12" minlength="12">
+        <br><br>
+        <label>resizeble text area</label>
+        <textarea>
+            
+        </textarea>
+        <br><br>
+        <label>drop down section</label>
+        <select  >
+                <optgroup label="TG" >
+                <option>Hyderabad</option>
+                <option>Medak</option>
+                </optgroup>
+                <optgroup label="AP">
+                <option>kurnool</option>
+                <option>guntur</option>
+                <option>vijayawada</option>
+                <option>viskapatam</option>
+                </optgroup>
+
+                <optgroup label="MN">
+                <option>pune</option>
+                <option>nashik</option> 
+                <option>mumbai</option>
+                </optgroup>
+                <optgroup label="KA">
+                <option>banglore</option>
+                <option>mysore</option>
+                </optgroup>    
+        </select>
+<br><br>
+        <label>
+            data linking tag
+        </label>
+
+        <input type="text" placeholder="enter your homtown" list="place">
+        <datalist id="place">
+            <option>Hyderabad</option>
+            <option>Medak</option>
+            <option>kurnool</option>
+            <option>guntur</option>
+            <option>vijayawada</option>
+            <option>viskapatam</option>
+            <option>pune</option>
+            <option>nashik</option>
+            <option>mumbai</option>
+            <option>banglore</option>
+            <option>mysore</option>
+        </datalist>
+<br><br><br>
+        <fieldset style="width: 300px; background-color: orangered; border: 5px  solid black">
+            <legend style="color: white; background-color: black;">
+                login form
+            </legend>
+            <form>
+                <input type="email" placeholder="enter your Gmail ID">
+                <input type="password" placeholder="enter your password">
+                <br><br>
+                <input type="submit">
+            </form>
+    </form>
+</body>
+</html>
