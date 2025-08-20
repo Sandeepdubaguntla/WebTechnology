@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: conic-gradient(red,blue,red);
+
+}
+div{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: conic-gradient(red 0% 10%,blue 10% 25%, orange 25% 26%,purple 26% 46%,yellow 45% 65%,green 65% 95%, pink 95% 100%);
+}
+#ganesh{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url(./ganesh1.png), conic-gradient(goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod);
+    background-size: 50% 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color:khaki;
+}
+
+#color{
+    color: red;
+}
+
+#rgb{
+    color: rgb(11, 230, 193);
+}
+
+#rgba{
+    color: rgba(123, 23,1, 0.1);
+}
+
+#hex{
+    color: #ef07eb;
+}
+
+#hexA{
+    color: #078aef56;
+}
