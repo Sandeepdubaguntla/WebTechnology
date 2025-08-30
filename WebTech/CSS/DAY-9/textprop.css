@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    letter-spacing: 50px;
+    /* text-decoration: underline overline line-through wavy red 1px; */
+    background-image: url(../../ASSETS/Images/banyan\ tree.jpg);
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+a{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+p
+{
+    text-align: justify;
+    text-indent: 100px;
+    word-spacing:10px;
+    line-height: 30px; 
+
+}

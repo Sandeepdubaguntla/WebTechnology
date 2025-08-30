@@ -1,0 +1,14 @@
+@font-face {
+    font-family: main-fornt;
+    src: url();
+}
+h1{
+    font-size: 100px;
+    font-weight: lighter;
+    font-style: italic;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}

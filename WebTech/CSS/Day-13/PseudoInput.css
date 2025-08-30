@@ -1,0 +1,59 @@
+/* input{
+    outline: none;
+}
+
+input:read-only{
+    background-color: orange;
+}
+
+input:disabled{
+    background-color: red;
+}
+
+input:read-write{
+    background-color: yellow;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+input:invalid{
+    border: 2px solid red;
+} 
+
+input:in-range{
+    border: 2px solid skyblue;
+}
+
+input:out-of-range{
+    border: 2px solid lawngreen;
+}
+
+input:required{
+    border: 2px solid orange;
+    background-color: yellow;
+} */
+
+
+input{
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    color: orangered;
+}
+
+input:focus{
+    border: 1px dashed darkblue;
+    color: yellow;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px skyblue;
+}
+
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+
+.ord

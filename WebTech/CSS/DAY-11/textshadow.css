@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#heading1{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 30px;
+    /* text-shadow: -10px -10px 50px red; */
+    /* color: white; */
+    /* text-shadow: 0px 0px 5px black; */
+    /* text-shadow: 2px 2px 1px red,-2px -2px 1px blue; */
+
+
+    text-shadow: 0px 0px 5px black,
+    2px 2px 0px violet,
+    4px 4px 0px violet,
+    6px 6px 0px violet,
+    8px 8px 0px violet,
+    10px 10px 0px violet,
+    12px 12px 0px indigo,
+    14px 14px 0px indigo,
+    16px 16px 0px indigo,
+    18px 18px 0px indigo,
+    20px 20px 0px indigo,
+    22px 22px 0px blue,
+    24px 24px 0px blue,
+    26px 26px 0px blue,
+    28px 28px 0px blue,
+    30px 30px 0px blue,
+    32px 32px 0px green,
+    34px 34px 0px green,
+    36px 36px 0px green,
+    38px 38px 0px green,
+    40px 40px 0px green,
+    42px 42px 0px yellow,
+    44px 44px 0px yellow,
+    46px 46px 0px yellow,
+    48px 48px 0px yellow,
+    50px 50px 0px yellow,
+    52px 52px 0px orange,
+    54px 54px 0px orange,
+    56px 56px 0px orange,
+    58px 58px 0px orange,
+    60px 60px 0px orange,
+    62px 62px 0px red,
+    64px 64px 0px red,
+    66px 66px 0px red,
+    68px 68px 0px red,
+    70px 70px 0px red
+
+     
+}
+
+#heading2{
+    text-align: center;
+    padding-top: 25%;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family:Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 30px;
+    color: orange;
+    text-shadow: -10px 9px 10px black
+    
+    
+
+}
