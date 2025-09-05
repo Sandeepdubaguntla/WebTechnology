@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 400px;
+}
+
+img{
+   width:310px;
+   transition-property: margin-left;
+   transition-duration: 5s;
+
+
+}
+#container:hover>img{
+    /*Child*/
+    margin-left: 80%;
+}
+#bike{
+    transition-timing-function: ease;
+}
+#bus{
+    /*Slow start and fast end*/
+    transition-timing-function: ease-in;
+}
+#car{
+    /*fast start and slow end*/
+    transition-timing-function: ease-out;
+}
+#train{
+    /*Slow start and fast end*/
+    transition-timing-function: ease-in-out;
+}
+#ship{
+    transition-timing-function: linear;
+}

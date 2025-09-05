@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 90%;
+    height: 250px;
+    transition: all 1s;
+}
+#con1{
+    width: 33%;
+    height: 300px;
+    float: left;
+    background-color: red;
+}
+
+#rotatez:hover~img{
+    transform: rotateZ(360deg);
+}
+#blur:hover~img{
+    filter: blur(10px);
+}
+#con2{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(200, 212, 122);
+    float: left;
+}
+
+#rotatey:hover~img{
+    transform: rotatey(360deg);
+}
+#opacity:hover~img{
+    filter:opacity(0.5);
+}
+
+#con3{
+    width: 34%;
+    height: 300px;
+    background-color: rgb(122, 212, 138);
+    float: left;
+}
+
+#rotatex:hover~img{
+    transform: rotatex(360deg);
+}
+#contrast:hover~img{
+    filter:contrast(120);
+}
+#con4{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(122, 212, 138);
+    float: left;
+}
+
+#scalex:hover~img{
+    transform: scaleX(10);
+}
+#hue:hover~img{
+    filter:hue-rotate(200deg);
+}
+#con5{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(15, 199, 174);
+    float: left;
+}
+
+#scaley:hover~img{
+    transform: scaleY(10);
+}
+#contrast:hover~img{
+    filter:contrast(120);
+}
+#con6{
+    width: 34%;
+    height: 300px;
+    background-color: rgb(87, 9, 147);
+    float: left;
+}
+
+#skewx:hover~img{
+    transform: skewX(360deg);
+}
+#hue:hover~img{
+    filter:hue-rotate(200deg);
+}
+
+#con7{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(217, 16, 180);
+    float: left;
+}
+
+#skewy:hover~img{
+    transform: skewy(360deg);
+}
+#blur:hover~img{
+    filter: blur(10px);
+}
+
+#con8{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(243, 16, 103);
+    float: left;
+}
+
+#translatex:hover~img{
+    transform: translateX(400px);
+}
+#opacity:hover~img{
+    filter:opacity(0.5);
+}
+
+#con9{
+    width: 34%;
+    height: 300px;
+    background-color: rgb(233, 179, 220);
+    float: left;
+}
+
+#translatey:hover~img{
+    transform: translateY(400px);
+}
+#hue:hover~img{
+    filter:hue-rotate(200deg);
+}
+

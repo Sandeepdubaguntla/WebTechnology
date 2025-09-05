@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../Assets/Images/MountainRight.png),
+    url(../../Assets/Images/MountainLeft.png),
+    url(../../Assets/Images/MountainLeft.png),
+    url(../../Assets/Images/MountainRight.png),
+    url(../../Assets/Images/personholdingMoon.png),
+    url(../../Assets/Images/Space.png);
+    background-size: 40%,30%,50%,60%,40%,120%;
+    background-repeat: no-repeat;
+    background-position: 440px 150px
+    360px 160px ,
+    120% 60px,
+    -120px 0px,
+    300px 300px,
+    bottom left;
+    transition: background-position 1s,background-size 1s;
+}
+
+header:hover{
+    background-size: 40%,30%,50%,60%,40%,160%;
+    background-position: 480px 100px,
+    300px 220px,
+    140% 120px,
+    -200px 100px,
+    350px 0px,
+    center  right;
+}
