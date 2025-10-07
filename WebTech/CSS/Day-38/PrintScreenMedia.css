@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(75deg,darkgreen,royalblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    font-size: 5vw;
+    letter-spacing: 3vw;
+    text-transform:uppercase;
+    color: lightgreen;
+    text-shadow: 1px 1px 2px black;
+}
+table{
+    width:80vw ;
+}
+th,td{
+    background-color: white;
+    padding: 0.2vw;
+    text-align: left;
+    border-radius: 2px;
+}
