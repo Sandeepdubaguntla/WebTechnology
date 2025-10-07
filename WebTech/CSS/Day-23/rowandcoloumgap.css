@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: lawngreen ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+#container{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3vw;
+    columns: 3vw;
+}
+.childDiv{
+    width: 280px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    transition: all 0.9s;    
+}
+.childDiv:hover{
+    transform: rotate(360deg) scale(1.2);
+}
