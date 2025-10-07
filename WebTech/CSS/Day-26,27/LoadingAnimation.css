@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 100px;
+  height: 100px;
+  /* background-color: red; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: rotate 3s linear infinite;
+}
+
+#container img {
+  position: absolute;
+  border-radius: 50%;
+}
+
+#img1 { width: 90%; height: 90%;   position: relative; left: 80px; }
+#img2 { width: 80%; height: 80%;   position: relative; top: 80px; }
+#img3 { width: 70%; height: 70%;   position: relative; bottom: 80px; }
+#img4 { width: 60%; height: 60%;   position: relative; right: 80px; }
+#img5 { width: 50%; height: 50%;   position: relative; top: -30px; left: -40px; }
+#img6 { width: 40%; height: 40%;   position: relative; bottom: -30px; right: -40px; }
+#img7 { width: 30%; height: 30%;   position: relative; bottom: -30px; left: -40px; }
+#img8 { width: 20%; height: 20%;   position: relative; top: -30px; right: -40px; }
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: bisque;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+#T{
+    font-size: 90px;
+    color: transparent;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#A{
+    font-size: 90px;
+    color: transparent;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#R{
+    font-size: 90px;
+    color: transparent;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#U{
+    font-size: 90px;
+    color: transparent;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#N{
+    font-size: 90px;
+    color: transparent;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes textAnimation{
+    0%,100%{
+        transform: rotate(0deg) rotateY(0deg) skew(0deg) translateY(-24vw);
+        background-image: linear-gradient(74deg,red,yellow,blue,green,black,purple,yellow,orange,red);
+        -webkit-background-clip: text;
+    }
+    25%{
+        transform: rotate(-3deg) rotateY(3deg) skew(12deg) translateY(-17vw);
+        background-image: linear-gradient(74deg,red,yellow,blue,green,black,purple,yellow,orange,red);
+        -webkit-background-clip: text;
+    }
+    40%{
+       transform: rotate(6deg) rotateY(6deg) skew(24deg) translateY(-7vw);
+       background-image: linear-gradient(74deg,red,yellow,blue,green,black,purple,yellow,orange,red);
+        -webkit-background-clip: text;
+    }
+    60%{
+        transform: rotate(3deg) rotateY(-3deg) skew(-12deg) translateY(-0vw);
+        background-image: linear-gradient(74deg,red,yellow,blue,green,black,purple,yellow,orange,red);
+        -webkit-background-clip: text;
+    }
+}

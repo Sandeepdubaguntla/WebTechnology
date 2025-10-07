@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 90%;
+    height: 200px;
+    background-color: lightcoral;
+    display: flex;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 2px dotted white;
+}
+#child1{
+    flex-grow: 1;
+}
+#child2{
+    flex-grow: 2;
+}
+#child3{
+    flex-grow: 3;
+}

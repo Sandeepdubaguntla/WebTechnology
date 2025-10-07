@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#heading1{
+    font-size: 60px;
+    letter-spacing: 6px;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    /* animation-iteration-count: 2s; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    animation-fill-mode: both;
+}
+#heading2{
+    font-size: 40px;
+    letter-spacing: 6px;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    /* animation-iteration-count: 4; */
+     /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: backwards;
+}
+#heading3{
+    font-size: 20px;
+    letter-spacing: 6px;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    /* animation-iteration-count: infinite; */
+     /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+}
+@keyframes textAnimation{
+   from{
+    transform: translate(-100vw);
+   }
+   to{
+    transform: translate(0vw);
+   }
+}
