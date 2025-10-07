@@ -1,0 +1,34 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#px{
+    width: 10px;
+    height:10px;
+    background-color: red;
+}
+#pt{
+    width: 10pt;
+    height:10pt;
+    background-color: blue;
+}
+#pc{
+    width: 10pc;
+    height:10pc;
+    background-color: green;
+}
+#mm{
+    width: 10mm;
+    height:10mm;
+    background-color: yellow;
+}
+#cm{
+    width: 10cm;
+    height:10cm;
+    background-color: midnightblue;
+}
+#in{
+    width: 10in;
+    height:10in;
+    background-color: lawngreen;
+}

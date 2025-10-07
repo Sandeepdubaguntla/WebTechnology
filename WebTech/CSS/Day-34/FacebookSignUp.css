@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 244, 244);
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: radial-gradient(circle at right,rgb(254,244,189),white); */
+}
+#right{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+    padding-right: 100px;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(0, 110, 255);
+    font-size: 62px;
+    /* padding-left: 300px; */
+    /* padding-bottom: 300px; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 28px;
+    text-align: justify;
+    text-wrap: wrap;
+    padding-left: 225px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#login-form{
+    /* border: 2px solid black; */
+    background-color: white;
+    box-shadow: 5px 5px 60px rgb(230, 228, 228),-5px 5px 5px rgb(230, 228, 228);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+/* #login-form hr{
+    margin: 15px 0;
+    border: 0;
+    height: 1px;
+    background-color: aliceblue;
+} */
+input{
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(225, 213, 213);
+    padding-left: 10px;
+    font-size: 15px;
+}
+button{
+    width: 360px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 18px;
+    
+    cursor: pointer;
+}
+a{
+    /* padding-left: 100px; */
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+#create-account{
+    background-color: rgb(6, 194, 6);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 180px;
+}
+/* input:hover{
+    border: 1px solid rgb(0, 110, 255);
+    box-shadow: 2px 2px 2px rgb(126, 171, 230);
+} */
+
+input:active{
+    border: 1px solid blue;
+    border-color: blue;
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+input{
+    cursor: grabbing;
+    /* cursor: grab;
+    cursor: pointer;
+    cursor: help; */
+    /* cursor: n-resize; */
+    /* cursor: crosshair; */
+    /* cursor: move; */
+    /* cursor: not-allowed; */
+
+}
+a{
+    cursor: none;
+}
+/* Start https://www.cursors-4u.com */
+ /* * {
+    cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1158.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1158.png), auto !important;
+} */
+  /* End https://www.cursors-4u.com */
+
+* {
+    cursor: url(../../ASSETS/Images/cursorpic.jpg), auto !important;
+}
