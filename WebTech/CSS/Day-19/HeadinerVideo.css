@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: skyblue;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+video{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+
+
+}
+h1{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 90px;
+    color: white;
+    letter-spacing: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* #lotus{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 100px;
+    border-radius: 100% 0px 100% 0px;
+    transform: rotate(-45deg);
+    position: relative;
+
+
+} */
